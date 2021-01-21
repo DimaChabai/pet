@@ -1,0 +1,3 @@
+/logs/logs.log
+# Project exclude paths
+/target/
