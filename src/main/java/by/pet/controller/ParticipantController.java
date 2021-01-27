@@ -68,7 +68,7 @@ public class ParticipantController {
         return result;
     }
 
-    @RequestMapping("/list")
+    @GetMapping("/list")
     public List<Participant> list() {
         List<Participant> participants = null;
         try {

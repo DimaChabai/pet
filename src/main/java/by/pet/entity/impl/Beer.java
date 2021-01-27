@@ -11,7 +11,6 @@ public class Beer extends Entity {
     @Id
     @GeneratedValue
     private long id;
-    @Column(columnDefinition = "beer_type")
     private String beerType;
 
     public Beer() {
